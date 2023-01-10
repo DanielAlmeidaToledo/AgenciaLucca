@@ -1,0 +1,77 @@
+.Introduction{
+    font-weight: 400;
+    font-size: 5rem;
+    line-height: 9rem;
+    color: #fefcfb;
+    text-align: center;
+    padding: 1rem 0 0;
+    letter-spacing: 1rem;
+    height: 83vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photoHome{
+    width: 27rem;
+    transition: .5s; 
+    position: absolute;
+    left: 0;
+}
+
+.photoHome:hover{
+    margin-top: -.5rem;
+}
+
+/* RIGHT - HOME */
+
+.infoHome{
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.orcamentoHome, .agenciaHome{
+    width: 100%;
+}
+
+.agenciaHome{
+    padding: 2rem 0 2rem 5rem;
+}
+
+.h1Home{
+    margin: 1rem 0 0;
+}
+
+.h1Home2{
+    margin-top: -1rem;
+}
+
+.orcamentoHome{
+    height: 30%;
+    display: flex;
+}
+
+.btnOrcamento{
+    letter-spacing: 0;
+    background-color: #FFD956;
+    color: #fff;
+    border-radius: 2rem;
+    width: 20rem;
+    height: 4.3rem;
+    font-weight: 700;
+    font-size: 1.3rem;
+    line-height: 1.1rem;
+    transition: .5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto 0;
+}
+
+.btnOrcamento:hover{
+    box-shadow: 0 7px 20px #ffda5621;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}

@@ -1,0 +1,63 @@
+.Sell{
+    width: 80%;
+    color: #fff;
+    padding: 5rem 0;
+    display: flex;
+    margin: 0 auto;
+}
+
+.sellLeft, .sellRight{
+    width: 50%;
+    height: 60vh;
+}
+
+.sellLeft{
+    padding: 0 .5rem;
+    font-size: 2.5rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.sellRight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sellDiv{
+    margin: 1.5rem 0;
+}
+
+.sellInput{
+    width: 23rem;
+    height: 4rem;
+    font-size: 1.2rem;
+    border-radius: 10rem;
+    padding-left: 1.5rem;
+    border: 2px solid #fff;
+    box-shadow: 0 1px 2px #fff;
+}
+
+.sellInput:hover{
+    border: 2px solid #FFD956;
+}
+
+.btnSell{
+    background-color: #FFD956;
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    position: absolute;
+    transition: .3s;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.btnSell:hover{
+    box-shadow: 0 7px 20px #ffda5621;
+    margin-left: .5rem;
+    cursor: pointer;
+}

@@ -1,0 +1,17 @@
+.Works, .cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards{
+    justify-content: center;
+}
+
+.titleWorks{
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+    letter-spacing: .1rem;
+    width: 100%;
+}

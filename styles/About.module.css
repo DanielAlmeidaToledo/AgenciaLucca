@@ -1,0 +1,25 @@
+.About {
+    width: 100%;
+    color: #fff;
+    padding: 3rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.aboutTitle {
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 0.1rem;
+    width: 100%;
+}
+
+.aboutDiv{
+    width: 70%;
+    text-align: justify;
+}
+
+.aboutText{
+    font-size: 1.3rem;
+}

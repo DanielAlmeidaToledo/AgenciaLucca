@@ -1,0 +1,88 @@
+.navbar{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+}
+
+.navLogo{
+    width: 5rem;
+    height: 5rem;
+}
+
+.navRouter{
+    list-style: none;
+    display: flex;
+}
+
+.navLi{
+    margin: 0 1rem;
+    font-weight: 400;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .4s;
+}
+.navLi:hover{
+    color: #FFD956;
+    font-weight: 500;
+}
+
+.navContact{
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid #FFD956;
+    color: #fff;
+    border-radius: 2rem;
+    width: 10rem;
+    height: 3rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1.1rem;
+    transition: .5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navContact:hover{
+    transition: .3s;
+    background-color: #FFD956;
+    box-shadow: 0 5px 10px #ffda5621;
+    margin-bottom: 1rem;
+}
+
+.navAgencia{
+    background-color: transparent;
+    color: #fff;
+    border-radius: 2rem;
+    width: 7rem;
+    height: 3rem;
+    border: none;
+}
+
+.navAgencia:hover{
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.navWhats{
+    margin-left: .7rem;
+}
+
+@media (max-width: 710px){
+    .navbar{
+        justify-content: space-around;
+    }
+    .navRouter{
+        display: none;
+    }
+    .navLogo{
+        width: 6rem;
+    }
+    .navAgencia{
+        width: 6rem;
+        height: 3rem;
+    }
+}

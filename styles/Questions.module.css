@@ -1,0 +1,34 @@
+.Questions{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.titleQuestions{
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+    letter-spacing: .1rem;
+    width: 100%;
+}
+
+.accordion{
+    width: 90%;
+    text-align: center;
+}
+
+.acordItem{
+    margin: .35rem 0;
+}
+
+.acord{
+    color: #fff;
+    padding: .5rem 0;
+    text-transform: uppercase;
+}
+
+.textAcord{
+    padding: 1rem 0;
+    color: #fff;
+}

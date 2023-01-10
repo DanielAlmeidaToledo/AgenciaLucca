@@ -1,0 +1,71 @@
+.wrapper {
+    position: relative;
+    perspective: 40em;
+    display: grid;
+    transform-style: preserve-3d;
+    margin: 3rem 2rem;
+  }
+  
+  .card {
+    grid-area: 1 / 1;
+    height: 15rem;
+    width: 15rem;
+    /* height: 200px;
+    width: 400px; */
+    transform: translateX(3px) rotateY(5deg) rotateX(5deg);
+    background: #FEFCFB;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 900;
+    backface-visibility: hidden;
+    box-shadow: 0 10px 30px -3px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+  }
+  
+  .wrapper:before {
+    --bw: .4rem;
+    grid-area: 1 / 1;
+    content: "";
+    backface-visibility: hidden;
+    height: 100%;
+    width: 100%;
+    margin-top: calc(-1 * var(--bw));
+    margin-left: calc(-1 * var(--bw));
+    background: transparent;
+    transform: translateX(-20px) rotateY(-10deg) rotateX(5deg) scale(1.03);
+    pointer-events: none;
+    border: var(--bw) solid #000;
+    box-sizing: content-box;
+    border-radius: 1rem;
+  }
+  
+  .wrapper:hover > div,
+  .wrapper:hover:before {
+    transform: none;
+  }
+  
+  .wrapper > div,
+  .wrapper:before {
+    will-change: transform;
+    transition: 0.3s transform cubic-bezier(0.25, 0.46, 0.45, 1);
+  }
+  
+  .cardImg {
+      width: 7rem;
+      height: 7rem;
+  }
+    
+  .cardTitle {
+      width: 90%;
+      height: 7rem;
+      display: flex;
+      align-items: center;
+      font-size: 1.5rem;
+      text-align: center;
+  }
