@@ -19,12 +19,16 @@ export default function Footer() {
         <ul className={styles.footItems}>
           <li className={styles.footItem}>
             <Link legacyBehavior href="/termo">
-              Termos de uso
+              <a className={styles.linkRoute}>Termos de uso</a>
             </Link>
           </li>
           <li className={styles.footItem}>
-            <Link legacyBehavior href="/politica-privacidade">
-              Políticas de privacidade
+            <Link
+              className={styles.linkRoute}
+              legacyBehavior
+              href="/politica-privacidade"
+            >
+              <a className={styles.linkRoute}>Políticas de privacidade</a>
             </Link>
           </li>
         </ul>

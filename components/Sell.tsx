@@ -36,7 +36,7 @@ export default function Sell() {
   }
 
   return (
-    <div className={styles.Sell}>
+    <div className={styles.Sell} id="Sell">
       <div className={styles.sellLeft}>
         Nossa equipe está esperando para te atender. Entre em contato conosco!
       </div>

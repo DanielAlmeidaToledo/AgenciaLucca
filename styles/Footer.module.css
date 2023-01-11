@@ -27,14 +27,19 @@
 }
 
 .footItem{
-    font-size: .9rem;
     list-style: none;
+}
+
+.linkRoute{
+    text-decoration: none;
+    color: #fff;
+    font-size: .9rem;
     margin: 0 1rem;
     cursor: pointer;
     transition: .4s;
 }
 
-.footItem:hover{
+.linkRoute:hover{
     color: #FFD956;
 }
 

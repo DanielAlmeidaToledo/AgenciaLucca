@@ -2,7 +2,7 @@ import styles from "../styles/About.module.css";
 
 export default function About() {
   return (
-    <div className={styles.About}>
+    <div className={styles.About} id="About">
       <h3 className={styles.aboutTitle}>SOBRE</h3>
       <div className={styles.aboutDiv}>
         <span className={styles.aboutText}>

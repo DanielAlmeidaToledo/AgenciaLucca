@@ -31,16 +31,17 @@
 
 .sellInput{
     width: 23rem;
-    height: 4rem;
+    height: 3.5rem;
     font-size: 1.2rem;
     border-radius: 10rem;
     padding-left: 1.5rem;
-    border: 2px solid #fff;
+    border: 3px solid #fff;
     box-shadow: 0 1px 2px #fff;
+    outline: none;
 }
 
 .sellInput:hover{
-    border: 2px solid #FFD956;
+    border: 3px solid #FFD956;
 }
 
 .btnSell{

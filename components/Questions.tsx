@@ -46,7 +46,7 @@ export default function Questions() {
   }));
 
   return (
-    <div className={styles.Questions}>
+    <div className={styles.Questions} id="Questions">
       <h3 className={styles.titleQuestions}>DÚVIDAS</h3>
       <div className={styles.accordion}>
         <Accordion
