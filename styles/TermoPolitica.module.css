@@ -1,0 +1,21 @@
+.screen{
+    min-height: 75vh;
+    width: 70%;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.screen h2{
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+    letter-spacing: .1rem;
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.screen p{
+    text-align: justify;
+    font-size: 1.3rem;
+    line-height: 1.7 rem;
+}

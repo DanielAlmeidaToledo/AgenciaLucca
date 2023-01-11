@@ -14,6 +14,7 @@
 
 .photoHome{
     width: 27rem;
+    height: 31rem;
     transition: .5s; 
     position: absolute;
     left: 0;
