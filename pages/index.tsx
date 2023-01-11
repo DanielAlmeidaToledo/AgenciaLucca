@@ -3,14 +3,13 @@ import styles from "../styles/Home.module.css";
 import btnWhats from "../public/icons/whats.png";
 
 import Introduction from "../components/Introduction";
-import Navbar from "../components/Navbar";
 import Works from "../components/Works";
 import Questions from "../components/Questions";
 import About from "../components/About";
 import Sell from "../components/Sell";
-import Footer from "../components/Footer";
 
 import Image from "next/image";
+import { Montserrat } from "@next/font/google";
 
 export default function Home() {
   return (
@@ -22,13 +21,11 @@ export default function Home() {
       >
         <Image src={btnWhats} alt="Whatsapp" />
       </a>
-      <Navbar />
       <Introduction />
       <Works />
       <Questions />
       <About />
       <Sell />
-      <Footer />
     </div>
   );
 }

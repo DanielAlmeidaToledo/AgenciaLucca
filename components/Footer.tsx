@@ -1,6 +1,7 @@
 import styles from "../styles/Footer.module.css";
 
 import Image from "next/image";
+import Link from "next/link";
 
 import Logo from "../public/media/logo13.png";
 import whats from "../public/redes/whats.png";
@@ -12,10 +13,20 @@ export default function Footer() {
   return (
     <div className={styles.Footer}>
       <div className={styles.footTop}>
-        <Image className={styles.footImg} src={Logo} alt="" />
+        <Link legacyBehavior href="/">
+          <Image className={styles.footImg} src={Logo} alt="" />
+        </Link>
         <ul className={styles.footItems}>
-          <li className={styles.footItem}>Termos de uso</li>
-          <li className={styles.footItem}>Políticas de privacidade</li>
+          <li className={styles.footItem}>
+            <Link legacyBehavior href="/termo">
+              Termos de uso
+            </Link>
+          </li>
+          <li className={styles.footItem}>
+            <Link legacyBehavior href="/politica-privacidade">
+              Políticas de privacidade
+            </Link>
+          </li>
         </ul>
       </div>
       <div className={styles.footBottom}>

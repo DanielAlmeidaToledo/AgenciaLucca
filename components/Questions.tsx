@@ -42,7 +42,7 @@ export default function Questions() {
 
   const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
     padding: theme.spacing(2),
-    backgroundColor: "#6A6A6A",
+    backgroundColor: "#fff",
   }));
 
   return (
