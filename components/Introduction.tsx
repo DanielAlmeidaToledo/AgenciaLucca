@@ -10,7 +10,13 @@ import { Link } from "react-scroll";
 export default function Introduction() {
   return (
     <div className={styles.Introduction} id="Home">
-      <Image src={LF} className={styles.photoHome} alt="Lucas Fernando" />
+      <Image
+        src={LF}
+        priority={true}
+        quality={100}
+        className={styles.photoHome}
+        alt="Lucas Fernando"
+      />
       <div className={styles.infoHome}>
         <div className={styles.agenciaHome}>
           <h1 className={styles.h1Home}>AGENCIA</h1>
