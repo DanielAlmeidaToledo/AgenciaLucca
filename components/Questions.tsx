@@ -62,7 +62,7 @@ export default function Questions() {
               sx={{ width: "100%", flexShrink: 0 }}
               className={styles.acord}
             >
-              Google - Meu negócio
+              O que é o Google - Meu negócio ?
             </Typography>
           </AccordionSummary>
           <AccordionDetails className={styles.textAcord}>
@@ -85,7 +85,7 @@ export default function Questions() {
               sx={{ width: "100%", flexShrink: 0 }}
               className={styles.acord}
             >
-              Catálogo no Whatsapp
+              Como funciona o Catálogo no Whatsapp ?
             </Typography>
           </AccordionSummary>
           <AccordionDetails className={styles.textAcord}>
@@ -108,7 +108,7 @@ export default function Questions() {
               sx={{ width: "100%", flexShrink: 0 }}
               className={styles.acord}
             >
-              Estratégia de Vendas
+              Como é a Estratégia de Vendas ?
             </Typography>
           </AccordionSummary>
           <AccordionDetails className={styles.textAcord}>
@@ -130,7 +130,7 @@ export default function Questions() {
               sx={{ width: "100%", flexShrink: 0 }}
               className={styles.acord}
             >
-              Reuniões de Feedback
+              O que consistem as Reuniões de Feedback ?
             </Typography>
           </AccordionSummary>
           <AccordionDetails className={styles.textAcord}>
@@ -153,7 +153,7 @@ export default function Questions() {
               sx={{ width: "100%", flexShrink: 0 }}
               className={styles.acord}
             >
-              Consultoria de Criativos
+              Como funciona o Consultoria de Criativos ?
             </Typography>
           </AccordionSummary>
           <AccordionDetails className={styles.textAcord}>
@@ -176,7 +176,7 @@ export default function Questions() {
               sx={{ width: "100%", flexShrink: 0 }}
               className={styles.acord}
             >
-              Linktree Personalizado
+              Como é o Linktree Personalizado ?
             </Typography>
           </AccordionSummary>
           <AccordionDetails className={styles.textAcord}>
