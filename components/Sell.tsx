@@ -2,6 +2,8 @@ import styles from "../styles/Sell.module.css";
 
 import { useState } from "react";
 
+import { config } from "../pages/api/config.local";
+
 import emailjs from "emailjs-com";
 
 export default function Sell() {
@@ -11,16 +13,9 @@ export default function Sell() {
 
   function sendEmail(e: React.ChangeEvent<any>) {
     e.preventDefault();
-    console.log(name + " - " + message + " - " + email);
-
     if (name && message && email) {
       emailjs
-        .sendForm(
-          "gmailMessage",
-          "template_ewyqt4u",
-          e.target,
-          "jPy-T5NudB8ThMkRk"
-        )
+        .sendForm(config.service, config.template, e.target, config.key)
         .then(
           (result) => {
             alert("Mensagem enviada com sucesso!");
