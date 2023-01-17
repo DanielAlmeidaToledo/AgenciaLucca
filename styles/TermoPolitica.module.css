@@ -1,6 +1,6 @@
 .screen{
     min-height: 75vh;
-    width: 70%;
+    width: 85%;
     color: #fff;
     margin: 0 auto;
 }
@@ -16,6 +16,13 @@
 
 .screen p{
     text-align: justify;
-    font-size: 1.3rem;
-    line-height: 1.7 rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.screen span{
+    text-align: start;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
 }

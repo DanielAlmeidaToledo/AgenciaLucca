@@ -23,13 +23,10 @@ export default function Footer() {
             </Link>
           </li>
           <li className={styles.footItem}>
-            <Link legacyBehavior href="/termo">
-              <a className={styles.linkRoute}>Termos de uso</a>
-            </Link>
-          </li>
-          <li className={styles.footItem}>
-            <Link legacyBehavior href="/politica-privacidade">
-              <a className={styles.linkRoute}>Políticas de privacidade</a>
+            <Link legacyBehavior href="/termos-politica-privacidade">
+              <a className={styles.linkRoute}>
+                Termos e Políticas de privacidade
+              </a>
             </Link>
           </li>
         </ul>
