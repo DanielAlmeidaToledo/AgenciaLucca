@@ -19,7 +19,7 @@ export default function Home() {
         <link rel="shortcut icon" href="/media/logo3.png" type="image/x-icon" />
         <meta
           name="keyworkds"
-          content="marketing, marketing digital, agência marketing, Agencia Lucca"
+          content="marketing, marketing digital, agência marketing, Agencia Lucca, Marketing em Boituva"
         ></meta>
         <meta name="description" content="Agência de marketing digital"></meta>
       </Head>
