@@ -2,7 +2,7 @@
 
 👨🏻‍💻 Site em desenvolvimento.
 
-Projeto freelancer de uma Landing Page destinada a Agência Lucca, que é uma empresa de Marketing Digital. Desenvolvido em Next.js com React.JS e Typescript.
+Projeto freelancer de uma Landing Page destinada a Agência Lucca, que é uma empresa de Marketing Digital. Desenvolvido em Next.js, React.JS e Typescript.
 
 ## ⚙️ Linguagens e Ferramentas utilizadas:
 
@@ -12,6 +12,7 @@ Projeto freelancer de uma Landing Page destinada a Agência Lucca, que é uma em
 - React Icons
 - MUI
 - CSS
+- EmailJS
 - Vite
 - Vercel
 
