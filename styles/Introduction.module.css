@@ -1,78 +1,83 @@
-.Introduction{
-    font-weight: 400;
-    font-size: 5rem;
-    line-height: 9rem;
-    color: #fefcfb;
-    text-align: center;
-    padding: 1rem 0 0;
-    letter-spacing: 1rem;
-    height: 83vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.Introduction {
+  font-weight: 400;
+  font-size: 5rem;
+  line-height: 9rem;
+  color: #fefcfb;
+  text-align: center;
+  padding: 1rem 0 0;
+  letter-spacing: 1rem;
+  height: 83vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
-.photoHome{
-    width: 27rem;
-    height: 31rem;
-    transition: .5s; 
-    position: absolute;
-    left: 0;
+.agenciaHome {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
-.photoHome:hover{
-    margin-top: -.5rem;
+.h1Home {
+  margin: 1rem 0 0;
 }
 
-/* RIGHT - HOME */
-
-.infoHome{
-    float: right;
-    display: flex;
-    flex-wrap: wrap;
-    height: 100%;
+.h1Home2 {
+  margin-top: -1rem;
 }
 
-.orcamentoHome, .agenciaHome{
-    width: 100%;
+.divDown {
+  width: 80%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
 }
 
-.agenciaHome{
-    padding: 2rem 0 2rem 5rem;
+.photoHome,
+.orcamentoHome {
+  width: 33%;
+  height: 100%;
+  margin-top: -7rem;
 }
 
-.h1Home{
-    margin: 1rem 0 0;
+.photoHome {
+  float: left;
+  transition: 0.5s;
+  padding: 0 5rem;
 }
 
-.h1Home2{
-    margin-top: -1rem;
+.photoHome:hover {
+  margin-top: -7.8rem;
 }
 
-.orcamentoHome{
-    height: 30%;
-    display: flex;
+.orcamentoHome {
+  display: flex;
+  align-items: center;
+  padding: 0 5rem;
 }
 
-.btnOrcamento{
-    letter-spacing: 0;
-    background-color: #FFD956;
-    color: #fff;
-    border-radius: 2rem;
-    width: 20rem;
-    height: 4.3rem;
-    font-weight: 700;
-    font-size: 1.3rem;
-    line-height: 1.1rem;
-    transition: .5s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 2rem auto 0;
+.btnOrcamento {
+  letter-spacing: 0;
+  background-color: #ffd956;
+  color: #fff;
+  border-radius: 2rem;
+  width: 80%;
+  height: 15%;
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 1.1rem;
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 
-.btnOrcamento:hover{
-    box-shadow: 0 7px 20px #ffda5621;
-    margin-top: 1.5rem;
-    cursor: pointer;
+.btnOrcamento:hover {
+  box-shadow: 0 7px 20px #ffda5621;
+  margin-top: -2rem;
+  cursor: pointer;
 }
