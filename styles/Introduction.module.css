@@ -38,7 +38,7 @@
 
 .photoHome,
 .orcamentoHome {
-  width: 33%;
+  width: 30%;
   height: 100%;
   margin-top: -7rem;
 }
@@ -55,7 +55,7 @@
 
 .orcamentoHome {
   display: flex;
-  align-items: center;
+  align-items: end;
   padding: 0 5rem;
 }
 
@@ -64,8 +64,8 @@
   background-color: #ffd956;
   color: #fff;
   border-radius: 2rem;
-  width: 80%;
-  height: 15%;
+  width: 18rem;
+  height: 4rem;
   font-weight: 700;
   font-size: 1.3rem;
   line-height: 1.1rem;
@@ -73,11 +73,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto;
+  margin: 0 auto 3rem;
 }
 
 .btnOrcamento:hover {
   box-shadow: 0 7px 20px #ffda5621;
-  margin-top: -2rem;
+  margin-top: -10rem;
   cursor: pointer;
 }

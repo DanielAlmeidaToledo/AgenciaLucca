@@ -6,6 +6,8 @@
 
 .cards{
     justify-content: center;
+    margin: 0 auto;
+    width: 90%;
 }
 
 .titleWorks{
@@ -14,10 +16,4 @@
     color: #fff;
     letter-spacing: .1rem;
     width: 100%;
-}
-
-@media (max-width: 768px) {
-    .Works {
-        background-color: red;
-    }
 }
